@@ -8,105 +8,105 @@
   <img src="https://img.shields.io/badge/Power_BI-CDEBD8?style=for-the-badge&logo=powerbi&logoColor=245C48" />
 </p>
 
----
+## 📝 Descripción del proyecto
 
-## 🎯 Descripción del proyecto
+Este proyecto tiene como objetivo desarrollar un proceso integral de análisis de datos, aplicando herramientas de Python y Power BI para explorar información, identificar patrones y comunicar resultados de manera clara y visual.
 
-Este proyecto corresponde al trabajo final de la formación en análisis de datos.
+A través del análisis de datos de transacciones comerciales minoristas, se busca comprender el comportamiento de las ventas, los productos y los clientes, transformando los datos en información útil para la toma de decisiones.
 
-El objetivo es desarrollar un proceso integral de análisis que permita explorar, procesar, interpretar y visualizar datos utilizando **Python y Power BI**.
-
-El proyecto contempla dos etapas complementarias:
-
-- 🐍 **Python:** exploración, procesamiento y análisis de datos mediante Google Colab.
-- 📊 **Power BI:** transformación de los resultados en visualizaciones e indicadores mediante un dashboard interactivo.
+El trabajo se desarrolla en distintas etapas: exploración, limpieza, análisis exploratorio, visualización y construcción de un dashboard interactivo.
 
 ## 🎯 Objetivos
 
-- 🔎 Explorar y comprender los datos.
-- 🧹 Realizar la limpieza y preparación de los datos.
-- 📈 Aplicar técnicas de análisis y visualización.
-- 💡 Identificar patrones y resultados relevantes.
-- 📊 Comunicar los resultados mediante herramientas de Business Intelligence.
+- Explorar y comprender la estructura del conjunto de datos.
+- Identificar valores faltantes, duplicados y posibles inconsistencias.
+- Aplicar técnicas de limpieza y preparación de datos con Python.
+- Analizar el comportamiento de las ventas, los productos y los clientes.
+- Identificar patrones y concentraciones relevantes.
+- Comunicar los principales resultados mediante visualizaciones.
+- Integrar el análisis en un dashboard de Power BI.
+
+## 📁 Dataset utilizado
+
+- **Nombre:** Online Retail.
+- **Fuente original:** UCI Machine Learning Repository.
+- **Enlace:** [Online Retail Dataset](https://archive.ics.uci.edu/dataset/352/online+retail).
+- **Formato de trabajo:** CSV.
+- **Muestra analizada:** 400 registros y 8 variables.
+
+El conjunto de datos original contiene información de transacciones de un comercio minorista online. Para este proyecto se trabaja con una muestra de 400 registros.
 
 ## 🛠️ Herramientas y tecnologías
 
 | Herramienta | Aplicación |
 |---|---|
-| 🐍 Python | Análisis y procesamiento de datos |
-| 📓 Google Colab | Desarrollo del notebook |
-| 🐼 Pandas | Manipulación de datos |
-| 📊 Matplotlib / Seaborn | Visualización de datos |
-| 📈 Power BI | Dashboard e indicadores interactivos |
-| 🐙 GitHub | Control de versiones y documentación |
+| Python | Procesamiento y análisis de datos |
+| Google Colab | Entorno de desarrollo |
+| Pandas | Manipulación y limpieza de datos |
+| Matplotlib | Visualización de datos |
+| Seaborn | Visualización y exploración gráfica |
+| Power BI | Dashboard e indicadores |
+| GitHub | Documentación y publicación del proyecto |
 
 ## 📂 Estructura del repositorio
 
 ```text
-📁 proyecto-final-analisis-datos
+proyecto-final-analisis-datos/
 │
-├── 📁 data
-│   └── Archivos de datos utilizados
+├── data/
+│   └── Online_Retail_muestra_400_filas.csv
 │
-├── 📁 notebooks
-│   └── Notebook de análisis en Python
+├── notebooks/
+│   └── TP_M1_Procesamiento_de_Datos_Mariela_Eckl.ipynb
 │
-├── 📁 scripts
-│   └── Scripts complementarios
+├── scripts/
 │
-├── 📁 results
-│   ├── Visualizaciones
-│   └── Dashboard de Power BI
+├── results/
 │
-└── 📄 README.md
+└── README.md
 ```
 
-## 🐍 Etapa 1 | Análisis de datos con Python
+## 🔎 Etapas del proyecto
 
-**Herramienta:** Google Colab
+### Etapa 1 — Procesamiento y análisis con Python
 
-Esta etapa comprende el trabajo de análisis realizado en Python.
+En esta primera etapa se trabaja sobre la exploración, preparación y análisis del conjunto de datos.
 
-Actividades:
+Actividades desarrolladas:
 
-- Exploración inicial de los datos.
-- Preparación y limpieza.
-- Análisis exploratorio.
-- Visualización de resultados.
-- Interpretación de los hallazgos.
+- Carga y exploración inicial de los datos.
+- Revisión de la estructura y los tipos de variables.
+- Identificación de valores faltantes y duplicados.
+- Análisis de posibles inconsistencias.
+- Exploración de variables y estadísticas descriptivas.
+- Análisis de ventas, productos y clientes.
+- Evaluación de la concentración de ingresos y del principio de Pareto (80/20).
+- Elaboración de visualizaciones para facilitar la interpretación de los resultados.
 
-📓 **Notebook:** se incorporará en la carpeta `notebooks`.
+### Etapa 2 — Dashboard en Power BI
 
-## 📊 Etapa 2 | Business Intelligence con Power BI
+<em>Estado: Pendiente de desarrollo.</em>
 
-**Herramienta:** Microsoft Power BI
+Se integrarán los resultados del análisis realizado en Python para construir un dashboard interactivo que permita visualizar los principales indicadores y explorar los datos mediante filtros y segmentadores.
 
-Esta etapa contempla la construcción de un dashboard para visualizar y comunicar los resultados del análisis.
+### Etapa 3 — Conclusiones y presentación
 
-Actividades previstas:
+<em>Estado: Pendiente de desarrollo.</em>
 
-- Diseño del dashboard.
-- Selección de indicadores (KPIs).
-- Construcción de visualizaciones.
-- Análisis e interpretación de métricas.
-- Presentación de resultados.
+Se documentarán los principales hallazgos, las conclusiones del análisis y las oportunidades de mejora identificadas a partir de los datos.
 
-⏳ **Estado:** pendiente de realización e incorporación al repositorio.
+## 📊 Resultados
 
-El archivo de Power BI y las capturas del dashboard se agregarán una vez finalizada esta práctica.
-
-## 💡 Conclusiones
-
-Las conclusiones generales se incorporarán una vez completadas ambas etapas, integrando los resultados obtenidos mediante Python y Power BI.
+Esta sección se actualizará a medida que avance el proyecto, incorporando gráficos, indicadores y conclusiones relevantes.
 
 ## 👩‍💻 Autora
 
 **Mariela Eckl**
 
-📍 Buenos Aires, Argentina
+Analista de datos y BI | Power BI | Python | Inteligencia Artificial Generativa.
 
-🔗 [LinkedIn](https://www.linkedin.com/in/mariela-eckl/)
+[LinkedIn](https://www.linkedin.com/in/mariela-eckl/)
 
 ---
 
-⭐ Proyecto académico desarrollado como parte de mi formación en análisis de datos.
+*Proyecto académico desarrollado como parte de la formación en análisis de datos en la UTN BA.*
