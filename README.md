@@ -1,9 +1,11 @@
-# 📊 Proyecto Final | Análisis de Datos con Python y Power BI
+# 📊 Proyecto Final | Data Analytics
+
+### Análisis de datos con Python y Power BI
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Python-DCCFF0?style=for-the-badge&logo=python&logoColor=44345C" />
+  <img src="https://img.shields.io/badge/Google_Colab-F8C8DC?style=for-the-badge&logo=googlecolab&logoColor=70445D" />
+  <img src="https://img.shields.io/badge/Power_BI-CDEBD8?style=for-the-badge&logo=powerbi&logoColor=245C48" />
 </p>
 
 ---
