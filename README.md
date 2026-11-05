@@ -3,7 +3,7 @@
 ### Análisis de datos con Python y Power BI
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-DCCFF0?style=for-the-badge&logo=python&logoColor=44345C" />
+ <img src="https://img.shields.io/badge/Python-DCCFF0?style=for-the-badge&logo=python&logoColor=3776AB" />
   <img src="https://img.shields.io/badge/Google_Colab-F8C8DC?style=for-the-badge&logo=googlecolab&logoColor=70445D" />
 <img src="https://img.shields.io/badge/%F0%9F%93%8A_POWER_BI-CDEBD8?style=for-the-badge" />
 </p>
