@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-DCCFF0?style=for-the-badge&logo=python&logoColor=44345C" />
   <img src="https://img.shields.io/badge/Google_Colab-F8C8DC?style=for-the-badge&logo=googlecolab&logoColor=70445D" />
-  <img src="https://img.shields.io/badge/Power_BI-CDEBD8?style=for-the-badge&logo=microsoftpowerpoint&logoColor=245C48" />
+  <img src="https://img.shields.io/badge/Power_BI-CDEBD8?style=for-the-badge&logo=powerbi&logoColor=245C48&logoSize=auto" />
 </p>
 
 ## 📝 Descripción del proyecto
