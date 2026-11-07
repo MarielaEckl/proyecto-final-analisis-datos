@@ -267,7 +267,7 @@ proyecto-final-analisis-datos/
 # 👩‍💻 10. Autora
 
 **Mariela Eckl**
-https://www.linkedin.com/in/mariela-eckl/ 
+
 Proyecto desarrollado como trabajo final del curso de Herramientas de Análisis de Datos.
 
 Intereses profesionales: análisis de datos, métricas, Business Intelligence y mejora de procesos.
