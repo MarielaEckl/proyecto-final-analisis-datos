@@ -29,7 +29,7 @@ Cada registro representa una línea de factura e incluye información sobre:
 
 Chen, D. (2015). *Online Retail* [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5BW33
 
-Licencia: Creative Commons Attribution 4.0 International (CC BY 4.0).
+**Licencia:** Creative Commons Attribution 4.0 International (CC BY 4.0).
 
 ---
 
@@ -147,11 +147,11 @@ Porque encontrar el valor de un negocio no consiste solamente en contar cuánto 
 
 # 📊 5. Dashboard | Análisis Comercial
 
-![Dashboard Online Retail](results/Imagen%20Dashboard%20Mariela%20Eckl.JPG)
+![Dashboard Online Retail](powerbi/results/Imagen%20Dashboard%20Mariela%20Eckl.JPG)
 
 El dashboard fue desarrollado en Power BI con una estructura de una página principal, orientada a facilitar la lectura de los indicadores y la exploración de los resultados.
 
-### Indicadores principales (KPIs)
+## Indicadores principales (KPIs)
 
 | Indicador | Descripción |
 |---|---|
@@ -161,7 +161,7 @@ El dashboard fue desarrollado en Power BI con una estructura de una página prin
 | Clientes Identificados | Cantidad de clientes con identificador disponible |
 | Ticket Promedio USD | Ingresos estimados por factura |
 
-### Visualizaciones
+## Visualizaciones
 
 - Evolución mensual de ingresos.
 - Distribución geográfica de ingresos.
@@ -169,7 +169,7 @@ El dashboard fue desarrollado en Power BI con una estructura de una página prin
 - Comparación entre unidades vendidas e ingresos.
 - Hallazgos principales de la investigación.
 
-### Interactividad
+## Interactividad
 
 El dashboard permite explorar los resultados mediante filtros por:
 
@@ -179,11 +179,11 @@ El dashboard permite explorar los resultados mediante filtros por:
 
 También incorpora navegación mediante botones para futuras secciones de análisis.
 
-### Archivos del dashboard
+## Archivos del dashboard
 
 - [Ver dashboard en PDF](powerbi/results/Ejercicio%20Final%20Mariela%20Eckl%20-%20Analisis%20de%20Datos.pdf)
 - [Descargar archivo Power BI (.pbix)](powerbi/Ejercicio%20Final%20Mariela%20Eckl%20-%20Analisis%20de%20Datos.pbix)
-- [Ver imagen del dashboard](results/Imagen%20Dashboard%20Mariela%20Eckl.JPG)
+- [Ver imagen del dashboard](powerbi/results/Imagen%20Dashboard%20Mariela%20Eckl.JPG)
 
 ---
 
@@ -198,7 +198,7 @@ También incorpora navegación mediante botones para futuras secciones de análi
 | Google Colab | Desarrollo y documentación del análisis |
 | GitHub | Publicación y organización del proyecto |
 
-### Medidas principales en DAX
+## Medidas principales en DAX
 
 Se desarrollaron medidas para calcular los principales indicadores del dashboard:
 
