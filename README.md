@@ -1,111 +1,171 @@
 # 📊 Proyecto Final | Data Analytics
 
-### Análisis de datos con Python y Power BI
+## ¿Dónde está el valor de nuestro negocio?
+### Una investigación a través de los datos de Online Retail
 
-<p align="center">
- <img src="https://img.shields.io/badge/Python-DCCFF0?style=for-the-badge&logo=python&logoColor=3776AB" />
-  <img src="https://img.shields.io/badge/Google_Colab-F8C8DC?style=for-the-badge&logo=googlecolab&logoColor=70445D" />
-<img src="https://img.shields.io/badge/%F0%9F%93%8A_POWER_BI-CDEBD8?style=for-the-badge" />
-</p>
+Este proyecto explora una muestra de 400 registros de transacciones comerciales para comprender el comportamiento de las ventas, los productos, los clientes y los mercados.
 
-## 📝 Descripción del proyecto
+El objetivo es transformar datos en información que permita identificar oportunidades y acompañar la toma de decisiones comerciales.
 
-Este proyecto tiene como objetivo desarrollar un proceso integral de análisis de datos, aplicando herramientas de Python y Power BI para explorar información, identificar patrones y comunicar resultados de manera clara y visual.
+---
 
-A través del análisis de datos de transacciones comerciales minoristas, se busca comprender el comportamiento de las ventas, los productos y los clientes, transformando los datos en información útil para la toma de decisiones.
+## 📸 Dashboard | Análisis Comercial
 
-El trabajo contempla distintas etapas: procesamiento y preparación de datos, **Análisis Exploratorio de Datos (EDA)**, visualización y construcción de un dashboard interactivo.
+![Dashboard Online Retail](powerbi/results/Imagen%20Dashboard%20Mariela%20Eckl.JPG)
 
-## 🎯 Objetivos
+**Archivos del proyecto:**
 
-- Explorar y comprender la estructura del conjunto de datos.
-- Evaluar la calidad de la información e identificar posibles inconsistencias.
-- Aplicar técnicas de preparación y procesamiento de datos con Python.
-- Desarrollar un Análisis Exploratorio de Datos (EDA).
-- Analizar el comportamiento de las ventas, los productos y los clientes.
-- Identificar patrones y concentraciones relevantes.
-- Comunicar los principales resultados mediante visualizaciones.
-- Integrar los resultados en un dashboard de Power BI.
+- [Ver Dashboard en PDF](powerbi/results/Ejercicio%20Final%20Mariela%20Eckl%20-%20Analisis%20de%20Datos.pdf)
+- [Descargar archivo Power BI (.pbix)](powerbi/Ejercicio%20Final%20Mariela%20Eckl%20-%20Analisis%20de%20Datos.pbix)
+- [Consultar datos procesados (.csv)](data/Online_Retail_limpio_para_PowerBI.csv)
 
-## 📁 Dataset utilizado
+---
 
-- **Nombre:** Online Retail.
-- **Fuente original:** UCI Machine Learning Repository.
-- **Enlace:** [Online Retail Dataset](https://archive.ics.uci.edu/dataset/352/online+retail).
-- **Formato de trabajo:** CSV.
-- **Muestra analizada:** 400 registros y 8 variables.
+# 🔎 La investigación
 
-El conjunto de datos original contiene información de transacciones de un comercio minorista online. Para este proyecto se trabaja con una muestra de 400 registros.
+## 1. Todo comienza con una pregunta
 
-## 🛠️ Herramientas y tecnologías
+Imaginemos que somos responsables de un negocio. Tenemos productos, clientes, mercados, ventas e ingresos.
+
+Pero ¿sabemos realmente dónde está el valor?
+
+- ¿Los productos que más se venden son también los que más ingresos generan?
+- ¿Todos los mercados tienen la misma importancia?
+- ¿Conocemos realmente a nuestros clientes?
+
+Decidí explorar estas preguntas porque detrás de cada transacción puede haber información que no resulta evidente a simple vista.
+
+## 2. Comienza la investigación
+
+Trabajé con una muestra de 400 registros del conjunto de datos Online Retail.
+
+El proceso incluyó preparación, revisión de calidad y transformación de los datos para convertirlos en información útil para el análisis.
+
+Utilicé **Python y Pandas** para el procesamiento y análisis de los datos, y **Power BI y DAX** para construir un dashboard interactivo.
+
+La investigación se organizó en cinco dimensiones:
+
+1. Evolución de los ingresos.
+2. Comportamiento de los productos.
+3. Relación entre unidades vendidas e ingresos.
+4. Distribución geográfica del negocio.
+5. Identificación de clientes.
+
+## 3. Primera pista: ¿más ventas significan más ingresos?
+
+Al analizar los productos, encontramos dos casos interesantes:
+
+| Producto | Unidades vendidas | Ingresos estimados |
+|---|---:|---:|
+| SURTIDO COLORS SILK FAN | 600 | US$ 614,06 |
+| LAUNDRY 15C METAL CARTEL | 288 | US$ 770,88 |
+
+El segundo producto generó más ingresos con menos unidades vendidas.
+
+**Primera conclusión:** vender más unidades no significa necesariamente generar más ingresos.
+
+## 4. Segunda pista: ¿dónde se genera el negocio?
+
+El análisis geográfico mostró una fuerte concentración:
+
+- Reino Unido: 86,3 % de los ingresos.
+- Otros mercados: 13,7 %.
+
+Este resultado invita a analizar la dependencia comercial de un mercado y explorar oportunidades de diversificación.
+
+## 5. Tercera pista: ¿conocemos realmente a nuestros clientes?
+
+De los 400 registros analizados, 97 no tienen identificado el número de cliente.
+
+Esto representa el **24,25 % de la muestra**.
+
+La falta de identificación limita la posibilidad de analizar recurrencia, fidelización y comportamiento de compra de esos clientes.
+
+## 6. El descubrimiento
+
+La investigación permitió identificar tres aspectos relevantes:
+
+- El volumen de unidades vendidas no siempre refleja la contribución económica de un producto.
+- Los ingresos presentan una importante concentración geográfica.
+- La calidad y disponibilidad de los datos de clientes condicionan el análisis comercial.
+
+## 7. El desenlace: de los datos a las decisiones
+
+Los hallazgos permiten plantear nuevas preguntas y posibles acciones:
+
+- Analizar el surtido considerando su contribución económica, además del volumen de ventas.
+- Explorar oportunidades para diversificar los mercados.
+- Mejorar la identificación de clientes para fortalecer los análisis de comportamiento y fidelización.
+
+Porque encontrar el valor de un negocio no consiste solamente en contar cuánto vendemos. Consiste en comprender qué hay detrás de esos números y qué decisiones podemos tomar a partir de ellos.
+
+---
+
+# 🛠️ Herramientas y metodología
 
 | Herramienta | Aplicación |
 |---|---|
 | Python | Procesamiento y análisis de datos |
-| Google Colab | Entorno de desarrollo |
-| Pandas | Manipulación y preparación de datos |
-| Matplotlib | Visualización de datos |
-| Seaborn | Análisis y visualización gráfica |
-| Power BI | Dashboard e indicadores |
-| GitHub | Documentación y publicación del proyecto |
+| Pandas | Limpieza y transformación |
+| Power BI | Visualización y dashboard interactivo |
+| DAX | Medidas e indicadores |
+| GitHub | Documentación y versionado del proyecto |
 
-## 📂 Estructura del repositorio
+## Indicadores del dashboard
+
+- Ingresos estimados en USD.
+- Cantidad de facturas.
+- Unidades vendidas.
+- Clientes identificados.
+- Ticket promedio en USD.
+
+El dashboard incorpora filtros por mes, año y país, permitiendo explorar los resultados desde distintas perspectivas.
+
+---
+
+# 📂 Estructura del repositorio
 
 ```text
 proyecto-final-analisis-datos/
 │
 ├── data/
+│   ├── Online_Retail_limpio_para_PowerBI.csv
 │   └── Online_Retail_muestra_400_filas.csv
 │
 ├── notebooks/
+│   ├── TP_FINAL_Procesamiento_de_Datos_Mariela_Eckl_con_exportacion_PowerBI.ipynb
 │   └── TP_M1_Procesamiento_de_Datos_Mariela_Eckl.ipynb
 │
-├── README.md
+├── powerbi/
+│   ├── Ejercicio Final Mariela Eckl - Analisis de Datos.pbix
+│   │
+│   └── results/
+│       ├── Ejercicio Final Mariela Eckl - Analisis de Datos.pdf
+│       └── Imagen Dashboard Mariela Eckl.JPG
+│
+└── README.md
 ```
 
-## 🔎 Etapas del proyecto
+---
 
-### Etapa 1 — Procesamiento y Análisis Exploratorio de Datos (EDA) con Python
+# 📌 Consideraciones sobre los datos
 
-**Estado: Desarrollada en notebook.**
+- El análisis presentado en el dashboard corresponde a una muestra de 400 registros, no al conjunto completo de Online Retail.
+- Se conservaron los registros sin identificación de cliente para documentar la calidad de los datos.
+- Se incorporó la variable de ingresos estimados, calculada a partir de cantidad por precio unitario.
+- Los importes originales están expresados en libras esterlinas (GBP).
+- Para presentar los importes en USD se utilizó un factor de conversión fijo de 1,5745 USD/GBP, calculado como el promedio simple de los tipos de cambio anuales utilizados para 2010 y 2011. No representa una conversión al tipo de cambio de cada transacción.
 
-En esta etapa se trabaja sobre la exploración, preparación y análisis del conjunto de datos para comprender su estructura, evaluar la calidad de la información e identificar patrones relevantes.
+**Nota:** Los resultados y conclusiones deben interpretarse dentro del alcance de esta muestra.
 
-Actividades desarrolladas:
-
-- Carga y exploración inicial del dataset.
-- Revisión de la estructura y los tipos de variables.
-- Identificación de valores faltantes y duplicados.
-- Análisis de posibles inconsistencias.
-- Exploración de variables y estadísticas descriptivas.
-- Análisis de ventas, productos y clientes.
-- Evaluación de la concentración de ingresos mediante el principio de Pareto (80/20).
-- Elaboración de visualizaciones para facilitar la interpretación de los resultados.
-
-### Etapa 2 — Dashboard en Power BI
-
-**Estado: Pendiente de desarrollo.**
-
-Se integrarán los resultados del análisis realizado en Python para construir un dashboard interactivo que permita visualizar los principales indicadores y explorar los datos mediante filtros y segmentadores.
-
-### Etapa 3 — Conclusiones y presentación
-
-**Estado: Pendiente de desarrollo.**
-
-Se documentarán los principales hallazgos, las conclusiones del análisis y las oportunidades de mejora identificadas a partir de los datos.
-
-## 📊 Resultados
-
-Esta sección se actualizará a medida que avance el proyecto, incorporando gráficos, indicadores y conclusiones relevantes.
+---
 
 ## 👩‍💻 Autora
 
 **Mariela Eckl**
 
-Analista de datos y BI | Power BI | Python | Inteligencia Artificial Generativa.
+Proyecto desarrollado como trabajo final de formación en Análisis de Datos.
+
+Interés profesional: análisis de datos, métricas, Business Intelligence y mejora de procesos.
 
 [LinkedIn](https://www.linkedin.com/in/mariela-eckl/)
-
----
-
-*Proyecto académico desarrollado como parte de la formación en análisis de datos.*
